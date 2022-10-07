@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SendMessageBinding</string>
+    <string name="etMessageHint">Escribe un mensaje</string>
+    <string name="etMessageText" translatable="false" />
+    <string name="btSendText">Enviar</string>
+    <string name="etUserHint">Introduce tu nombre</string>
+    <string name="tvUserTextText">El usuario:</string>
+    <string name="tvMessageTextText">Ha escrito el mensaje:</string>
+    <string name="imgMessage">Imagen que contiene dos mensajes</string>
+    <string name="aboutus">Sobre nosotros</string>
+    <string name="aboutUsSubTittle">Estudiante del IES Portada Alta</string>
+</resources>

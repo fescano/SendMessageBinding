@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="etMessageMarginTop">50dp</dimen>
+    <dimen name="etMessageMinHeight">48dp</dimen>
+    <dimen name="btSendMarginTop">50dp</dimen>
+    <dimen name="etUserMarginTop">50dp</dimen>
+    <dimen name="etUserMinHeight">48dp</dimen>
+    <dimen name="tvUserTextMarginTop">50dp</dimen>
+    <dimen name="tvUserTextMinHeight">20dp</dimen>
+    <dimen name="tvMessageTextMarginTop">10dp</dimen>
+    <dimen name="tvMessageTextMinHeight">20dp</dimen>
+    <dimen name="tvMessageMarginTop">10dp</dimen>
+    <dimen name="tvUserMarginTop">10dp</dimen>
+    <dimen name="tvUserMinHeight">20dp</dimen>
+</resources>

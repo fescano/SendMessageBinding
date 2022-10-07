@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessageBinding</string>
+    <string name="etMessageHint">Write a message</string>
+    <string name="btSendText">Send</string>
+    <string name="etUserHint">Write your name</string>
+    <string name="tvUserTextText">User:</string>
+    <string name="tvMessageTextText">You wrote the message:</string>
+    <string name="imgMessage">Image who contains two messages</string>
+    <string name="aboutus">About us</string>
+    <string name="aboutUsSubTittle">Student of IES Portada Alta</string>
+</resources>

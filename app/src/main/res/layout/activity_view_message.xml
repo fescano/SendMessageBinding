@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="message" type="com.example.sendmessagebinding.data.Message"></variable>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.ViewMessageActivity">
+
+        <TextView
+            android:id="@+id/tvUserText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tvUserTextMarginTop"
+            android:minHeight="@dimen/tvUserTextMinHeight"
+            android:text="@string/tvUserTextText" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:text="@{message.user.name}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tvUserMarginTop"
+            android:minHeight="@dimen/tvUserMinHeight" />
+
+        <TextView
+            android:id="@+id/tvMessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tvMessageTextMarginTop"
+            android:minHeight="@dimen/tvMessageTextMinHeight"
+            android:text="@string/tvMessageTextText" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:text="@{message.content}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tvMessageMarginTop" />
+
+        <ImageView
+            android:id="@+id/imgMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tvMessageMarginTop"
+            app:srcCompat="@drawable/sobre"
+            android:contentDescription="@string/imgMessage" />
+    </LinearLayout>
+</layout>
